@@ -12,42 +12,91 @@ This is the website for the Visual Teach and Repeat (VT&R) 3.0 package. It is de
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 
-Description
+Table of Content
 ======
+
+- [Discription](#description)
+- [Hardware](#hardware)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Related Work](#related-work)
+
+
+<!-- - [VT&amp;R3](#vtr3)
+  - [Install VTR3](#install-vtr3)
+    - [Hardware Requirement](#hardware-requirement)
+    - [Install Ubuntu 20.04](#install-ubuntu-2004)
+    - [Create VTR3 Directories](#create-vtr3-directories)
+    - [Download VTR3 source code](#download-vtr3-source-code)
+    - [Install CUDA (>=11.3)](#install-cuda-113)
+    - [Install Eigen (>=3.3.7)](#install-eigen-337)
+    - [Install PROJ (>=8.0.0)](#install-proj-800)
+    - [Install OpenCV (>=4.5.0)](#install-opencv-450)
+    - [Install ROS2 Foxy](#install-ros2-foxy)
+    - [(OPTIONAL) Install ROS1 Noetic](#optional-install-ros1-noetic)
+    - [Install miscellaneous system libraries](#install-miscellaneous-system-libraries)
+    - [Install miscellaneous Python dependencies](#install-miscellaneous-python-dependencies)
+    - [Install miscellaneous ROS2 dependencies](#install-miscellaneous-ros2-dependencies)
+    - [Build and install VTR3](#build-and-install-vtr3)
+    - [Install driver and robot description packages](#install-driver-and-robot-description-packages)
+    - [Install VTR3 add-ons](#install-vtr3-add-ons)
+  - [VTR3 Datasets](#vtr3-datasets)
+  - [Launch VTR3](#launch-vtr3)
+    - [Offline Mode](#offline-mode)
+      - [Stereo SURF-Feature-Based T&R](#stereo-surf-feature-based-tr)
+      - [LiDAR Point-Cloud-Based T&R](#lidar-point-cloud-based-tr)
+    - [(INTERNAL) Online Mode - VTR3 on Grizzly](#internal-online-mode---vtr3-on-grizzly)
+      - [Grizzly Connection and Control](#grizzly-connection-and-control)
+      - [Stereo SURF-Feature-Based T&R](#stereo-surf-feature-based-tr-1)
+      - [LiDAR Point-Cloud-Based T&R](#lidar-point-cloud-based-tr-1)
+  - [Documentation](#documentation)
+    - [(INTERNAL) Conceptual design document](#internal-conceptual-design-document)
+    - [In-source documentation](#in-source-documentation)
+  - [Contributing](#contributing)
+  - [License](#license) -->
+
+
+# Description
+
+<!-- ====== -->
+
 add description of vt&r
 ...
+
+embed a intro video
+
+<!-- https://youtu.be/udI328uO7Qg -->
+
+<iframe width="300" height="180" src="https://www.youtube.com/embed/udI328uO7Qg" frameborder="0" allowfullscreen></iframe>
+text...
 
 <!-- 
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html). -->
 
-Hardware
-======
+# Hardware
+<!-- ====== -->
 add hardware description:
 
 <img width="300" height="180" src="images/VT&R_hardware.png">
 
-Demo
-======
+Show a coollection of robots: Grizzly, etc. 
+
+
+# Demo
+<!-- ====== -->
 embedd youtube video:
 <iframe width="300" height="180" src="https://www.youtube.com/embed/9dN0wwXDuqo" frameborder="0" allowfullscreen></iframe>
 
+text...
 
+# Installation
+<!-- ====== -->
+Follow [Installation Guide](https://github.com/utiasASRL/vtr3/blob/main/README.md) to run VT&R 3.0
 
-
-Getting started
-======
-test test
-
-Installation 
-------
-1. step 1
-2. step 2
-3. step 3
-
-Related Work
-======
+# Related Work
+<!-- ====== -->
 [1] paper 1
 [2] paper 2
 
