@@ -4,9 +4,9 @@ title: "Visual Teach & Repeat 3.0"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
-  - /vtr3/ 
+    - /vtr3/
+#   - /about/
+#   - /about.html
 ---
 
 This is the website for the Visual Teach and Repeat (VT&R) 3.0 package. It is designed for vision-based outdoor navigation..... The package is developed and maintained by the Autonomous Space Robotics Lab (ASRL) at University of Toronto Institute for Aerospace Studies. 
@@ -23,7 +23,43 @@ Table of Content
 - [Related Work](#related-work)
 
 
+<!-- - [VT&amp;R3](#vtr3)
+  - [Install VTR3](#install-vtr3)
+    - [Hardware Requirement](#hardware-requirement)
+    - [Install Ubuntu 20.04](#install-ubuntu-2004)
+    - [Create VTR3 Directories](#create-vtr3-directories)
+    - [Download VTR3 source code](#download-vtr3-source-code)
+    - [Install CUDA (>=11.3)](#install-cuda-113)
+    - [Install Eigen (>=3.3.7)](#install-eigen-337)
+    - [Install PROJ (>=8.0.0)](#install-proj-800)
+    - [Install OpenCV (>=4.5.0)](#install-opencv-450)
+    - [Install ROS2 Foxy](#install-ros2-foxy)
+    - [(OPTIONAL) Install ROS1 Noetic](#optional-install-ros1-noetic)
+    - [Install miscellaneous system libraries](#install-miscellaneous-system-libraries)
+    - [Install miscellaneous Python dependencies](#install-miscellaneous-python-dependencies)
+    - [Install miscellaneous ROS2 dependencies](#install-miscellaneous-ros2-dependencies)
+    - [Build and install VTR3](#build-and-install-vtr3)
+    - [Install driver and robot description packages](#install-driver-and-robot-description-packages)
+    - [Install VTR3 add-ons](#install-vtr3-add-ons)
+  - [VTR3 Datasets](#vtr3-datasets)
+  - [Launch VTR3](#launch-vtr3)
+    - [Offline Mode](#offline-mode)
+      - [Stereo SURF-Feature-Based T&R](#stereo-surf-feature-based-tr)
+      - [LiDAR Point-Cloud-Based T&R](#lidar-point-cloud-based-tr)
+    - [(INTERNAL) Online Mode - VTR3 on Grizzly](#internal-online-mode---vtr3-on-grizzly)
+      - [Grizzly Connection and Control](#grizzly-connection-and-control)
+      - [Stereo SURF-Feature-Based T&R](#stereo-surf-feature-based-tr-1)
+      - [LiDAR Point-Cloud-Based T&R](#lidar-point-cloud-based-tr-1)
+  - [Documentation](#documentation)
+    - [(INTERNAL) Conceptual design document](#internal-conceptual-design-document)
+    - [In-source documentation](#in-source-documentation)
+  - [Contributing](#contributing)
+  - [License](#license) -->
+
+
 # Description
+
+<!-- ====== -->
 
 add description of vt&r
 ...

@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "VT&R 3.0"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "VT&R 3.0"
-description              : &description "personal description"
+description              : &description "Visual Teach & Repeat 3.0"
 url                      : https://utiasASRL.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "utiasASRL/utiasASRL.github.io"
