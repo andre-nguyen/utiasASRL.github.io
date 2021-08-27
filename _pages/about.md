@@ -1,12 +1,12 @@
 ---
-permalink: /
+permalink: /vtr3/ #test remove this?
 title: "Visual Teach & Repeat 3.0"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-  - /vtr3/ 
+  # - /vtr3/ 
 ---
 
 This is the website for the Visual Teach and Repeat (VT&R) 3.0 package. It is designed for vision-based outdoor navigation..... The package is developed and maintained by the Autonomous Space Robotics Lab (ASRL) at University of Toronto Institute for Aerospace Studies. 
