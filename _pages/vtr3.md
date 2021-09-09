@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /vtr3/
 title: "Visual Teach & Repeat 3.0"
 excerpt: "About me"
 author_profile: true
