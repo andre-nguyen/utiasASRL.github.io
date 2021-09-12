@@ -1,10 +1,10 @@
 ---
 permalink: /vtr3/
-title: "Visual Teach & Repeat 3.0"
-excerpt: "About me"
+title: "Visual Teach & Repeat 3"
+# excerpt: "About me"
 author_profile: true
 redirect_from: 
-    - /vtr3/
+    # - /vtr3/
 #   - /about/
 #   - /about.html
 ---
