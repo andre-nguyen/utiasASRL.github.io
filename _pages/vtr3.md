@@ -9,10 +9,15 @@ redirect_from:
 #   - /about.html
 ---
 
-This is the website for the Visual Teach and Repeat (VT&R) 3.0 package. It is designed for vision-based outdoor navigation..... The package is developed and maintained by the Autonomous Space Robotics Lab (ASRL) at University of Toronto Institute for Aerospace Studies. 
+<!-- <iframe width="300" height="200" src="VTR3_Argo.mp4" type="video/mp4"></iframe> -->
+
+<!-- <video id="example_video_1" class="video-js vjs-default-skin" width="640" height="264" src="VTR3_Argo.mp4" type='video/mp4' />
+</video> -->
+
+This is the website for the Visual Teach and Repeat 3 (VT&R3) package. It is designed for vision-based outdoor navigation..... The package is developed and maintained by the Autonomous Space Robotics Lab (ASRL) at University of Toronto Institute for Aerospace Studies. 
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
-
+<!-- 
 Table of Content
 ======
 
@@ -21,45 +26,9 @@ Table of Content
 - [Demo](#demo)
 - [Installation](#installation)
 - [Related Work](#related-work)
-
-
-<!-- - [VT&amp;R3](#vtr3)
-  - [Install VTR3](#install-vtr3)
-    - [Hardware Requirement](#hardware-requirement)
-    - [Install Ubuntu 20.04](#install-ubuntu-2004)
-    - [Create VTR3 Directories](#create-vtr3-directories)
-    - [Download VTR3 source code](#download-vtr3-source-code)
-    - [Install CUDA (>=11.3)](#install-cuda-113)
-    - [Install Eigen (>=3.3.7)](#install-eigen-337)
-    - [Install PROJ (>=8.0.0)](#install-proj-800)
-    - [Install OpenCV (>=4.5.0)](#install-opencv-450)
-    - [Install ROS2 Foxy](#install-ros2-foxy)
-    - [(OPTIONAL) Install ROS1 Noetic](#optional-install-ros1-noetic)
-    - [Install miscellaneous system libraries](#install-miscellaneous-system-libraries)
-    - [Install miscellaneous Python dependencies](#install-miscellaneous-python-dependencies)
-    - [Install miscellaneous ROS2 dependencies](#install-miscellaneous-ros2-dependencies)
-    - [Build and install VTR3](#build-and-install-vtr3)
-    - [Install driver and robot description packages](#install-driver-and-robot-description-packages)
-    - [Install VTR3 add-ons](#install-vtr3-add-ons)
-  - [VTR3 Datasets](#vtr3-datasets)
-  - [Launch VTR3](#launch-vtr3)
-    - [Offline Mode](#offline-mode)
-      - [Stereo SURF-Feature-Based T&R](#stereo-surf-feature-based-tr)
-      - [LiDAR Point-Cloud-Based T&R](#lidar-point-cloud-based-tr)
-    - [(INTERNAL) Online Mode - VTR3 on Grizzly](#internal-online-mode---vtr3-on-grizzly)
-      - [Grizzly Connection and Control](#grizzly-connection-and-control)
-      - [Stereo SURF-Feature-Based T&R](#stereo-surf-feature-based-tr-1)
-      - [LiDAR Point-Cloud-Based T&R](#lidar-point-cloud-based-tr-1)
-  - [Documentation](#documentation)
-    - [(INTERNAL) Conceptual design document](#internal-conceptual-design-document)
-    - [In-source documentation](#in-source-documentation)
-  - [Contributing](#contributing)
-  - [License](#license) -->
-
+ -->
 
 # Description
-
-<!-- ====== -->
 
 add description of vt&r
 ...
@@ -68,7 +37,7 @@ embed a intro video
 
 <!-- https://youtu.be/udI328uO7Qg -->
 
-<iframe width="300" height="180" src="https://www.youtube.com/embed/udI328uO7Qg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/udI328uO7Qg" frameborder="0" allowfullscreen></iframe>
 text...
 
 <!-- 
@@ -80,7 +49,7 @@ Many of the features of dynamic content management systems (like Wordpress) can 
 <!-- ====== -->
 add hardware description:
 
-<img width="300" height="180" src="images/VT&R_hardware.png">
+<img width="360" height="210" src="images/VT&R_hardware.png">
 
 Show a coollection of robots: Grizzly, etc. 
 
@@ -88,20 +57,49 @@ Show a coollection of robots: Grizzly, etc.
 # Demo
 <!-- ====== -->
 embedd youtube video:
-<iframe width="300" height="180" src="https://www.youtube.com/embed/9dN0wwXDuqo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9dN0wwXDuqo" frameborder="0" allowfullscreen></iframe>
 
 text...
 
+# System Requirements
+add a list of system requirements
+- Ubuntu 20.04 
+- ROS 2
+- Grizzly
+
 # Installation
 <!-- ====== -->
-Follow [Installation Guide](https://github.com/utiasASRL/vtr3/blob/main/README.md) to run VT&R 3.0
+Follow [Installation Guide](https://github.com/utiasASRL/vtr3/blob/main/README.md) to run VT&R 3
+
+
+# Known Issues
+Below is a list of issues that we are awared of. If you have encountered any other issues, feel free to create a new issue on our Github page, or directly contact us at vtr3@robotics.utias.utoronto.ca 
+
+## Pathtracker Overhaul
+Add description of the issue.
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> 
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
+## Issue 2
+Add description of the issue
+
+# Collaborators
+Add a list of logos
 
 # Related Work
 <!-- ====== -->
-[1] paper 1
+[1] P. Furgale and T. D. Barfoot, “Visual teach and repeat for long-range rover autonomy,” Journal of Field Robotics, vol. 27, no. 5, pp. 534–560, 2010. \
 [2] paper 2
 
 
+<!-- 
+<video autoplay loop muted>
+  <source src="VTR3_Argo.mp4" type="video/mp4">
+</video> -->
 
 <!-- 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
