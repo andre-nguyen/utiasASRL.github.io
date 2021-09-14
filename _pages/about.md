@@ -30,10 +30,11 @@ Table of Content
 
 # Description
 
-add description of vt&r
-...
+Visual Teach and Repeat (VT&R) is a navigation system for mobile robots. In the teach phase, a user drives the robot manually to teach a path, while the system builds a map. Afterwards, during the repeat phase, the map is used for localization as the robot follows the path autonomously. VT&R relies on local submaps only, which facilitates repetition of long paths without the need for accurate global reconstruction. 
 
-embed a intro video
+VT&R handles long-term navigation with the use of multi-experience localization. Each time the robot repeats a path, data from this new experience is stored in the spatio-temporal pose graph. Previously collected experiences can then be used to bridge the appearance gap for localization to the map as the environment changes.
+
+VT&R3 is the C++ implementation of Visual Teach and Repeat. It is designed for easy adaptation to various robots and sensors, such as camera, LiDAR, RaDAR, or GPS. The current implementation includes a feature-based pipeline that uses a stereo camera, as well as a point-cloud-based pipeline for LiDAR sensors.
 
 <!-- https://youtu.be/udI328uO7Qg -->
 
