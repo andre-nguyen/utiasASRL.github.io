@@ -37,43 +37,31 @@ embed a intro video
 
 <!-- https://youtu.be/udI328uO7Qg -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/udI328uO7Qg" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/udI328uO7Qg?start=14" frameborder="0" allowfullscreen></iframe>
 text...
 
-<!-- 
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html). -->
-
-# Hardware
-<!-- ====== -->
-add hardware description:
-
-<img width="360" height="210" src="images/VT&R_hardware.png">
-
-Show a coollection of robots: Grizzly, etc. 
 
 
-# Demo
+# Hardware Requirements
+- computing requirements
+- sensors
+
+
+
+# Demonstration for Online VT&R 3
 <!-- ====== -->
 embedd youtube video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9dN0wwXDuqo" frameborder="0" allowfullscreen></iframe>
 
 text...
 
-# System Requirements
-add a list of system requirements
-- Ubuntu 20.04 
-- ROS 2
-- Grizzly
-
 # Installation
 <!-- ====== -->
 Follow [Installation Guide](https://github.com/utiasASRL/vtr3/blob/main/README.md) to run VT&R 3
 
 
-# Known Issues
-Below is a list of issues that we are awared of. If you have encountered any other issues, feel free to create a new issue on our Github page, or directly contact us at vtr3@robotics.utias.utoronto.ca 
+# Extension Plan
+Below is a list of features that we are currently working in. If you have encountered any other issues while running VT&R 3, feel free to create a new issue on our Github page [add link]. If you have any specific feature request, please directly contact us at vtr3@robotics.utias.utoronto.ca. 
 
 ## Pathtracker Overhaul
 Add description of the issue.
@@ -84,17 +72,41 @@ Add description of the issue.
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 > id sem consectetuer libero luctus adipiscing.
 
-## Issue 2
+## Radar Version of VT&R
 Add description of the issue
 
-# Collaborators
-Add a list of logos
+## Support for zad stereo camera
+Add description of zad stereo camera
+
+
+# Gallary of Robots that use VT&R
+
+<img width="660" height="515" src="images/collaborators.png">
+
+
 
 # Related Work
 <!-- ====== -->
-[1] P. Furgale and T. D. Barfoot, “Visual teach and repeat for long-range rover autonomy,” Journal of Field Robotics, vol. 27, no. 5, pp. 534–560, 2010. \
-[2] paper 2
+[1] Furgale P T and Barfoot T D. “Visual Teach and Repeat for Long-Range Rover Autonomy”. Journal of Field Robotics, special issue on “Visual mapping and navigation outdoors”, 27(5):534–560, 2010. doi: [10.1002/rob.20342](https://onlinelibrary.wiley.com/doi/10.1002/rob.20342), ([google](https://scholar.google.ca/scholar?q=10.1002/rob.20342)). ([pdf](http://asrl.utias.utoronto.ca/~tdb/sbib/furgale_jfr10.pdf)), ([video1](http://www.youtube.com/watch?v=KW8vi0791JI)), ([video2](http://www.youtube.com/watch?v=gwe6pFtxp5w)), ([video3](http://www.youtube.com/watch?v=5bcKwrL_1As))
 
+    @article{Furgale2010VisualTA,
+    title={Visual teach and repeat for long-range rover autonomy},
+    author={P. Furgale and T. Barfoot},
+    journal={J. Field Robotics},
+    year={2010},
+    volume={27},
+    pages={534-560}
+    }
+
+[2] Paton M, MacTavish K A, Warren M, and Barfoot T D. “Bridging the Appearance Gap: Multi-Experience Localization for Long-Term Visual Teach and Repeat”. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pages 1918–1925. Daejeon, Korea, 9-14 October 2016. doi: [10.1109/IROS.2016.7759303](https://ieeexplore.ieee.org/document/7759303), [(google)](https://scholar.google.ca/scholar?q=10.1109/IROS.2016.7759303)
+
+    @article{Paton2016BridgingTA,
+      title={Bridging the appearance gap: Multi-experience localization for long-term visual teach and repeat},
+      author={M. Paton and K. MacTavish and M. Warren and T. Barfoot},
+      journal={2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+      year={2016},
+      pages={1918-1925}
+    }
 
 <!-- 
 <video autoplay loop muted>
