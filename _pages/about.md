@@ -14,7 +14,7 @@ redirect_from:
 <!-- <video id="example_video_1" class="video-js vjs-default-skin" width="640" height="264" src="VTR3_Argo.mp4" type='video/mp4' />
 </video> -->
 
-This is the website for the Visual Teach and Repeat 3 (VT&R3) package. It is designed for vision-based outdoor navigation..... The package is developed and maintained by the Autonomous Space Robotics Lab (ASRL) at University of Toronto Institute for Aerospace Studies. 
+This is the website for the Visual Teach and Repeat 3 (VT&R3) package, which is the software implemenation of the Visual Teach and Repeat system for robot navigation with a camera or LiDAR sensor. The package is developed and maintained by the Autonomous Space Robotics Lab (ASRL) at University of Toronto Institute for Aerospace Studies. 
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
 <!-- 
@@ -30,10 +30,11 @@ Table of Content
 
 # Description
 
-add description of vt&r
-...
+Visual Teach and Repeat (VT&R) is a navigation system for mobile robots. In the teach phase, a user drives the robot manually to teach a path, while the system builds a map. Afterwards, during the repeat phase, the map is used for localization as the robot follows the path autonomously. VT&R relies on local submaps only, which facilitates repetition of long paths without the need for accurate global reconstruction. 
 
-embed a intro video
+VT&R handles long-term navigation with the use of multi-experience localization. Each time the robot repeats a path, data from this new experience is stored in the spatio-temporal pose graph. Previously collected experiences can then be used to bridge the appearance gap for localization to the map as the environment changes.
+
+VT&R3 is the C++ implementation of Visual Teach and Repeat. It is designed for easy adaptation to various robots and sensors, such as camera, LiDAR, RaDAR, or GPS. The current implementation includes a feature-based pipeline that uses a stereo camera, as well as a point-cloud-based pipeline for LiDAR sensors.
 
 <!-- https://youtu.be/udI328uO7Qg -->
 
