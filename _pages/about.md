@@ -44,17 +44,21 @@ text...
 
 
 # Hardware Requirements
-- computing requirements
-- sensors
+To run VT&R 3, you need the following hardware:
+- ROS2 enabled robot platform. VT&R 3 has been tested on the following robots: 
+- NVIDIA GPU-enabled machined that can run Ubuntu 20.04. We have tested on the following laptop models
 
+You would also need the following stereo camera or spinning LiDAR. 
+- Stereo camera: FLIR Bumblebee XB3 FireWire
+- LiDAR: Waymo Honeycomb, Velogyne Alpha Prime. 
+
+For more information, please refer to the installation guide under hardware requirements. We are actively working towards enabling supports for more sensors. More info on that will be updated on this wiki page. 
 
 
 # Demonstration for Online VT&R 3
 <!-- ====== -->
-embedd youtube video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9dN0wwXDuqo" frameborder="0" allowfullscreen></iframe>
+Please see the following tutorial on how to run online VT&R 3 on Grizzly robot. This tutorial gives basic info on how to use the UI to teach and repeat a path. <iframe width="560" height="315" src="https://www.youtube.com/embed/9dN0wwXDuqo" frameborder="0" allowfullscreen></iframe>
 
-text...
 
 # Installation
 <!-- ====== -->
@@ -65,22 +69,22 @@ Follow [Installation Guide](https://github.com/utiasASRL/vtr3/blob/main/README.m
 Below is a list of features that we are currently working in. If you have encountered any other issues while running VT&R 3, feel free to create a new issue on our Github page [add link]. If you have any specific feature request, please directly contact us at vtr3@robotics.utias.utoronto.ca. 
 
 ## Pathtracker Overhaul
-Add description of the issue.
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+Add description of this issue.
+<!-- > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 > 
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+> id sem consectetuer libero luctus adipiscing. -->
 
 ## Radar Version of VT&R
-Add description of the issue
+We ae working on enabling Radar-based localization in VT&R in the upcoming release. 
 
-## Support for zad stereo camera
-Add description of zad stereo camera
+## Support for zed stereo camera
+We are currently working towards enabling support for ZED stereo camera in our VT&R framework. More detailed instructions on how to set up ZED camera and other sensors will be added to this wiki page. 
 
-
-# Gallary of Robots that use VT&R
+# Gallery of Robots that use VT&R
+Below are all the robots that use our framework. 
 
 <img width="660" height="515" src="images/collaborators.png">
 
