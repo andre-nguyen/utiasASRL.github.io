@@ -56,7 +56,7 @@ Please see the following tutorial on how to run online VT&R3 on Grizzly robot. T
 
 
 # Extension Plan
-Below is a list of features that we are currently working in. If you have encountered any other issues while running VT&R 3, feel free to create a new issue on our Github page [add link]. If you have any specific feature request, please directly contact us at vtr3@robotics.utias.utoronto.ca. 
+Below is a list of features that we are currently working in. If you have encountered any other issues while running VT&R 3, feel free to create a new issue on our [Github page](https://github.com/utiasASRL/vtr3/issues). If you have any specific feature request, please directly contact us at vtr3@robotics.utias.utoronto.ca. 
 
 ## Pathtracker Overhaul
 In recent testing we have noticed some sub-optimal path tracking behavior under niche conditions. We will not be addressing these individual bugs immediately as in the near future we will be rewriting the current path tracker to implement constrained model predictive control associated with upcoming research.
