@@ -70,7 +70,7 @@ We are currently working towards enabling support for ZED stereo camera in our V
 # Gallery of Robots that use VT&R
 Below are all the robots that use our framework. 
 
-<img width="660" height="515" src="images/collaborators.png">
+<img width="660" height="515" src="collaborators.png">
 
 
 
