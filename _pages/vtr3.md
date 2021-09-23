@@ -8,7 +8,7 @@ redirect_from:
 #   - /about/
 #   - /about.html
 ---
-This is the website for the Visual Teach and Repeat 3 (VT&R3) package, which is the software implemenation of the Visual Teach and Repeat system for robot navigation with a camera or LiDAR sensor. The package is developed and maintained by the Autonomous Space Robotics Lab (ASRL) at University of Toronto Institute for Aerospace Studies. 
+This is the website for the Visual Teach and Repeat 3 (VT&R3) package, which is the C++ implemenation of the Visual Teach and Repeat system for robot navigation with a camera or LiDAR sensor. The package is developed and maintained by the Autonomous Space Robotics Lab (ASRL) at the University of Toronto Institute for Aerospace Studies (UTIAS). 
 
 
 # Description
@@ -17,7 +17,7 @@ Visual Teach and Repeat (VT&R) is a navigation system for mobile robots. In the 
 
 VT&R handles long-term navigation with the use of multi-experience localization. Each time the robot repeats a path, data from this new experience is stored in the spatio-temporal pose graph. Previously collected experiences can then be used to bridge the appearance gap for localization to the map as the environment changes.
 
-VT&R3 is the C++ implementation of Visual Teach and Repeat. It is designed for easy adaptation to various robots and sensors, such as camera, LiDAR, RaDAR, or GPS. The current implementation includes a feature-based pipeline that uses a stereo camera, as well as a point-cloud-based pipeline for LiDAR sensors. More detailed description of VT&R3 can be found in this [wiki page](https://github.com/utiasASRL/vtr3/wiki/Introduction-to-VTR3).
+VT&R3 is a C++ implementation of Visual Teach and Repeat. It is designed for easy adaptation to various robots and sensors, such as camera, LiDAR, RaDAR, or GPS. The current implementation includes a feature-based pipeline that uses a stereo camera, as well as a point-cloud-based pipeline for LiDAR sensors. More detailed description of VT&R3 can be found in this [wiki page](https://github.com/utiasASRL/vtr3/wiki/Introduction-to-VTR3).
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/udI328uO7Qg?start=14" frameborder="0" allowfullscreen></iframe>
@@ -43,12 +43,12 @@ For more information, please refer to the Installation Guide under [Hardware Rec
 
 # Installation
 <!-- ====== -->
-Please follow the [Installation Guide](https://github.com/utiasASRL/vtr3/wiki/Installation-Guide) to install VT&R 3 and it's dependicies. 
+Please follow the [Installation Guide](https://github.com/utiasASRL/vtr3/wiki/Installation-Guide) to install VT&R3 and its dependencies. 
 
 
 # Demonstration for Online VT&R3
 <!-- ====== -->
-Please see the following tutorial on how to run online VT&R3 on Grizzly robot. This tutorial gives basic info on how to use the UI to teach and repeat a path. More info on how to launch VT&R3 can be found on this [Wiki page](https://github.com/utiasASRL/vtr3/wiki/Installation-Guide). 
+Please see the following tutorial on how to run VT&R3 onlineon Grizzly robot. This tutorial gives basic info on how to use the UI to teach and repeat a path. More info on how to launch VT&R3 can be found on this [Wiki page](https://github.com/utiasASRL/vtr3/wiki/Installation-Guide). 
 (insert Jordy's video here)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qM8b89Jftv4" frameborder="0" allowfullscreen></iframe>
 
@@ -56,18 +56,18 @@ Please see the following tutorial on how to run online VT&R3 on Grizzly robot. T
 
 
 # Extension Plan
-Below is a list of features that we are currently working in. If you have encountered any other issues while running VT&R 3, feel free to create a new issue on our [Github page](https://github.com/utiasASRL/vtr3/issues). If you have any specific feature request, please directly contact us at vtr3@robotics.utias.utoronto.ca. 
+Below is a list of features that we are currently working on. If you have encountered any other issues while running VT&R3, feel free to create a new issue on our [GitHub page](https://github.com/utiasASRL/vtr3/issues). If you have any specific feature request, please directly contact us at vtr@robotics.utias.utoronto.ca. 
 
-## Pathtracker Overhaul
-In recent testing we have noticed some sub-optimal path tracking behavior under niche conditions. We will not be addressing these individual bugs immediately as in the near future we will be rewriting the current path tracker to implement constrained model predictive control associated with upcoming research.
+## Path-Tracker Overhaul
+In recent testing we have noticed some sub-optimal path tracking behavior under niche conditions. We will not be addressing these individual bugs immediately as in the near future we will be re-writing the current path tracker to implement constrained model predictive control associated with upcoming research.
 
-## Radar Version of VT&R
-We ae working on enabling Radar-based localization in VT&R in the upcoming release. 
+## RaDAR VT&R
+We are working on enabling RaDAR-based localization in VT&R in the upcoming release. 
 
-## Support for ZED stereo camera
-We are currently working towards enabling support for ZED stereo camera in our VT&R framework. More detailed instructions on how to set up ZED camera and other sensors will be added to this [wiki page](https://github.com/utiasASRL/vtr3/wiki/Setting-Up-VTR3-with-a-New-Sensor-or-Robot). 
+## Support for ZED Stereo Camera
+We are currently working towards enabling Support for ZED Stereo Camera in our VT&R framework. More detailed instructions on how to set up ZED camera and other sensors will be added to this [wiki page](https://github.com/utiasASRL/vtr3/wiki/Setting-Up-VTR3-with-a-New-Sensor-or-Robot). 
 
-# Gallery of Robots that use VT&R
+# Gallery of Robots that Use VT&R
 Below are all the robots that use our framework. 
 
 <img width="660" height="515" src="../images/collaborators.png">

@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
-name                     : &name "VT&R 3.0"
-description              : &description "Visual Teach & Repeat 3.0"
+name                     : &name "VT&R3"
+description              : &description "Visual Teach & Repeat 3"
 url                      : https://utiasASRL.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "utiasASRL/utiasASRL.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "utiasASRL"
   avatar           : "VT&R_hardware.png"
-  bio              : "Our research focus is to develop vision-based navigation to allow mobile robots to drive in outdoor, unstructured environments over long periods of time. Contact us at vtr@robotics.utias.utoronto.ca"
+  bio              : "Our research focus is to develop vision-based navigation to allow mobile robots to drive in outdoor, unstructured environments over long periods of time."
   location         : "Toronto, ON, Canada"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "vtr3@robotics.utias.utoronto.ca"
+  email            : "vtr@robotics.utias.utoronto.ca"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : "http://asrl.utias.utoronto.ca/"
   bitbucket        :
