@@ -48,7 +48,7 @@ Please follow the [Installation Guide](https://github.com/utiasASRL/vtr3/wiki/In
 
 # Demonstration for Online VT&R3
 <!-- ====== -->
-Please see the following tutorial on how to run VT&R3 onlineon Grizzly robot. This tutorial gives basic info on how to use the UI to teach and repeat a path. More info on how to launch VT&R3 can be found on this [Wiki page](https://github.com/utiasASRL/vtr3/wiki/Installation-Guide). 
+Please see the following tutorial on how to run VT&R3 online on Grizzly robot. This tutorial gives basic info on how to use the UI to teach and repeat a path. More info on how to launch VT&R3 can be found on this [Wiki page](https://github.com/utiasASRL/vtr3/wiki/Installation-Guide). 
 (insert Jordy's video here)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qM8b89Jftv4" frameborder="0" allowfullscreen></iframe>
 
