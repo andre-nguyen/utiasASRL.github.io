@@ -65,7 +65,7 @@ In recent testing we have noticed some sub-optimal path tracking behavior under 
 We are working on enabling RaDAR-based localization in VT&R in the upcoming release. 
 
 ## Support for ZED Stereo Camera
-We are currently working towards enabling Support for ZED Stereo Camera in our VT&R framework. More detailed instructions on how to set up ZED camera and other sensors will be added to this [wiki page](https://github.com/utiasASRL/vtr3/wiki/Setting-Up-VTR3-with-a-New-Sensor-or-Robot). 
+We are currently working towards enabling support for ZED stereo camera in our VT&R framework. More detailed instructions on how to set up ZED camera and other sensors will be added to this [wiki page](https://github.com/utiasASRL/vtr3/wiki/Setting-Up-VTR3-with-a-New-Sensor-or-Robot). 
 
 # Gallery of Robots that Use VT&R
 Below are all the robots that use our framework. 
