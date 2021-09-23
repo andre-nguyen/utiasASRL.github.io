@@ -62,7 +62,7 @@ Below is a list of features that we are currently working in. If you have encoun
 In recent testing we have noticed some sub-optimal path tracking behavior under niche conditions. We will not be addressing these individual bugs immediately as in the near future we will be rewriting the current path tracker to implement constrained model predictive control associated with upcoming research.
 
 ## Radar Version of VT&R
-We ae working on enabling Radar-based localization in VT&R in the upcoming release. 
+We are working on enabling Radar-based localization in VT&R in the upcoming release. 
 
 ## Support for ZED stereo camera
 We are currently working towards enabling support for ZED stereo camera in our VT&R framework. More detailed instructions on how to set up ZED camera and other sensors will be added to this [wiki page](https://github.com/utiasASRL/vtr3/wiki/Setting-Up-VTR3-with-a-New-Sensor-or-Robot). 
