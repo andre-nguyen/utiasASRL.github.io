@@ -3,8 +3,8 @@ main:
   - title: "VT&R3"
     url: /vtr3/
 
-  - title: "Talks"
-    url: /talks/
+  # - title: "Talks"
+  #   url: /talks/
 
   # - title: "Teaching"
   #   url: /teaching/
