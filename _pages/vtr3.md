@@ -35,7 +35,7 @@ To run VT&R3, you will need the following hardware:
 
 You would also need the following stereo camera or spinning LiDAR. 
 - [Bumblebee XB3 Stereo Camera](https://www.flir.ca/support/products/bumblebee-xb3-firewire/#Overview)
-- LiDAR: Waymo Honeycomb, [Velogyne Alpha Prime](https://velodynelidar.com/products/alpha-prime/). 
+- LiDAR: Waymo Honeycomb, [Velodyne Alpha Prime](https://velodynelidar.com/products/alpha-prime/). 
 
 For more information, please refer to the Installation Guide under [Hardware Recommendation](https://github.com/utiasASRL/vtr3/wiki/Installation-Guide). We are actively working towards enabling supports for more sensors. More info on that will be updated on this [wiki page](https://github.com/utiasASRL/vtr3/wiki/Setting-Up-VTR3-with-a-New-Sensor-or-Robot). 
 
